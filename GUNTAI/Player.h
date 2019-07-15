@@ -17,6 +17,9 @@ public:
 	void Separation();								//近隣の仲間との衝突を避ける
 	void Alignment();								//近隣の仲間の速度に合わせようとする
 	void Join();			//近隣の仲間の近くに居ようとする
+
+private :
+	VECTOR m_pos;
 };
 
 #endif // _PLAYER_H_

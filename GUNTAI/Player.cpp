@@ -4,7 +4,7 @@
 // @brief  コンストラクタ.
 //-----------------------------------------------------------------------------
 Player::Player(int sourceModelHandle)
-	: PlayerBase(sourceModelHandle)
+	:PlayerBase(sourceModelHandle)
 {
 	m_pos = VGet(0, 0, 0);
 }

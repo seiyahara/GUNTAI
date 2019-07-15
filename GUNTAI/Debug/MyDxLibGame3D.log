@@ -1,6 +1,4 @@
-﻿  BoidsBase.cpp
-  BoidsManager.cpp
-  Camera.cpp
+﻿  Camera.cpp
 c:\users\owner\desktop\tgs_game\guntai\camera.cpp(33): error C2039: 'GetPos': 'Player' のメンバーではありません。
   c:\users\owner\desktop\tgs_game\guntai\camera.h(6): note: 'Player' の宣言を確認してください
 c:\users\owner\desktop\tgs_game\guntai\camera.cpp(33): error C2660: 'DxLib::VGet': 関数に 1 個の引数を指定できません。
@@ -9,8 +7,6 @@ c:\users\owner\desktop\tgs_game\guntai\camera.cpp(38): error C2039: 'GetPos': 'P
   c:\users\owner\desktop\tgs_game\guntai\camera.h(6): note: 'Player' の宣言を確認してください
 c:\users\owner\desktop\tgs_game\guntai\camera.cpp(38): error C2660: 'DxLib::SetCameraPositionAndTarget_UpVecY': 関数に 1 個の引数を指定できません。
   c:\users\owner\desktop\dxlib_h\dxlib.h(3146): note: 'DxLib::SetCameraPositionAndTarget_UpVecY' の宣言を確認してください
-  ObstructFloat.cpp
-  ObstructStatic.cpp
   Player.cpp
 c:\users\owner\desktop\tgs_game\guntai\player.cpp(7): error C2614: 'Player': イニシャライズ リスト内のクラス 'PlayerBase' が基底クラスでもメンバーでもありません。
 c:\users\owner\desktop\tgs_game\guntai\player.cpp(9): error C2065: 'm_pos': 定義されていない識別子です。
@@ -26,6 +22,4 @@ c:\users\owner\desktop\tgs_game\guntai\player.cpp(59): error C2065: 'm_pos': 定
 c:\users\owner\desktop\tgs_game\guntai\player.cpp(65): error C2039: 'Draw': 'Player' のメンバーではありません。
   c:\users\owner\desktop\tgs_game\guntai\player.h(8): note: 'Player' の宣言を確認してください
 c:\users\owner\desktop\tgs_game\guntai\player.cpp(68): error C2065: 'm_modelHandle': 定義されていない識別子です。
-  PlayerBase.cpp
-  Stage.cpp
   コードを生成中...
